@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/consulta.css">
+    <title>Consulta tu cita </title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/html/inicio.html">Inicio</a></li>
+            <li><a href="/html/formulario _citas.html">Formulario de Citas</a></li>
+            <li><a href="/html/consultar.html">Consultar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+           <article>
+                <h2>Busca la cita</h2>
+                <form action="">
+                    <label for="id">Ingresa tu id de citas:</label>
+                    <input type="text" id="id" name="id" required>
+                </form>
+            </article>
+        <article>
+            <!-- Aqui aparece la informacion del usuario -->
+            <div class="tabla_datos">
+                <div><p>Nombre del cliente : <p id="name_consult"></p> <p id="last_name_consult"></p> </p></div>
+                <div><p>Edad del cliente : <p id="age_consult"></p></p></div>
+                <div><p>Genero: <p id="genero_consult"></p></p></div>
+                <div><p>Fecha de la cita: <p id="date_consult"></p></p></div>
+                <div><p>Hora de la cita : <p id="hour_consult"></p></p></div>
+                <div class="actions-bottons"> 
+                    <button>editar</button> <button>eliminar</button>
+                </div>
+            </div>
+            
+        </article>
+    </section>
+    </main>
+    <script src="/js/consult.js"></script>
+</body>
+</html>

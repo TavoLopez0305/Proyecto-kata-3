@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="/css/fomulario.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/html/inicio.html">Inicio</a></li>
+            <li><a href="/html/formulario _citas.html">Formulario de Citas</a></li>
+            <li><a href="/html/consultar.html">Consultar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <section>
+            <h1>Formulario de Registro</h1>
+            <form id="register_form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="nombre">Apellido paterno:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            
+                <label for="age">Edad:</label>
+                <input type="text" id="age" name="age">
+
+                <label for="date">Fecha de la cita</label>
+                <input type="date" id="date" name="date">
+
+                <label for="hour">Hora de la cita:</label>
+                <input type="text" id="hour" name="hour">
+                
+
+                
+                <!-- Botón de envío -->
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </section>
+    </article>
+    <article>
+        <section>
+            <h2>Tu id de citas es:</h2>
+            <p id="id-gen"></p>
+        </section>
+    </article>
+    </main>
+    <script src="/js/registro.js"></script>
+</body>
+</html>

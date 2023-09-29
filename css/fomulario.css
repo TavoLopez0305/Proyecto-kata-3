@@ -1,0 +1,74 @@
+/* Estilo base del nav */
+nav {
+    background-color: #3498db; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 15px; /* Espacio interno */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin: 5px;
+  }
+  
+  /* Estilo para los enlaces dentro del nav */
+  nav a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin-right: 15px; /* Espaciado entre enlaces */
+    transition: color 0.3s; /* Transición suave para el color del texto */
+  }
+  
+  /* Estilo para los enlaces cuando están en estado hover (sobre ellos) */
+  nav a:hover {
+    color: #f39c12; /* Cambia el color del texto al naranja al pasar el ratón sobre los enlaces */
+  }
+  
+  /* Estilo para el logo o título del nav */
+  nav .logo {
+    font-size: 24px; /* Tamaño del texto del logo */
+    font-weight: bold; /* Negrita */
+  }
+  
+  /* Estilo para una lista de navegación (opcional) */
+  nav ul {
+    list-style-type: none; /* Quita los puntos de lista */
+    padding: 0; /* Quita el espacio interno predeterminado de la lista */
+  }
+  
+  /* Estilo para los elementos de la lista de navegación (opcional) */
+  nav li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 10px; /* Espaciado entre elementos de la lista */
+  }
+/* Estilo base del formulario */
+form {
+    background-color: #3498db; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  /* Estilo para las etiquetas del formulario */
+  form label {
+    display: block; /* Hace que las etiquetas se muestren en una línea separada */
+    margin-bottom: 5px; /* Espacio entre etiquetas y campos de entrada */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilo para los campos de entrada de texto */
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 60%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre campos */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el botón de envío del formulario */
+  .boton {
+    background-color: #f39c12; /* Fondo naranja */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 5px;
+     }

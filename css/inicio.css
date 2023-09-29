@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+  }
+  
+nav {
+    background-color: #3498db; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 15px; /* Espacio interno */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin: 5px;
+  }
+  
+  /* Estilo para los enlaces dentro del nav */
+  nav a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin-right: 15px; /* Espaciado entre enlaces */
+    transition: color 0.3s; /* Transición suave para el color del texto */
+  }
+  
+  /* Estilo para los enlaces cuando están en estado hover (sobre ellos) */
+  nav a:hover {
+    color: #f39c12; /* Cambia el color del texto al naranja al pasar el ratón sobre los enlaces */
+  }
+  
+  /* Estilo para el logo o título del nav */
+  nav .logo {
+    font-size: 24px; /* Tamaño del texto del logo */
+    font-weight: bold; /* Negrita */
+  }
+  
+  /* Estilo para una lista de navegación (opcional) */
+  nav ul {
+    list-style-type: none; /* Quita los puntos de lista */
+    padding: 0; /* Quita el espacio interno predeterminado de la lista */
+  }
+  
+  /* Estilo para los elementos de la lista de navegación (opcional) */
+  nav li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 10px; /* Espaciado entre elementos de la lista */
+  }
+  /* Estilo general */
+
+  main {
+    max-width: 800px; /* Ancho máximo del contenido principal */
+    margin: 20px auto; /* Centrar el contenido en la página */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  /* Estilo del título */
+  main h2 {
+    color: #3498db; /* Color de texto azul */
+  }
+  
+  /* Estilo del párrafo */
+  main p {
+    line-height: 1.5;
+  }
+  
+  /* Estilo de los enlaces en el contenido principal */
+  main a {
+    color: #3498db; /* Color de texto azul */
+    text-decoration: underline;
+  }
+  
+  /* Estilo de los enlaces cuando están en estado hover (sobre ellos) */
+  main a:hover {
+    color: #e67e22; /* Cambia el color de texto al naranja al pasar el ratón sobre los enlaces */
+  }
+  
