@@ -114,3 +114,11 @@ div {
     border: none; /* Quita el borde predeterminado */
     border-radius: 5px;
  }
+.boton {
+  background-color: #f39c12; /* Fondo naranja */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Quita el borde predeterminado */
+  border-radius: 5px;
+  margin-top: 5px;
+   }

@@ -18,9 +18,10 @@
         <section>
            <article>
                 <h2>Busca la cita</h2>
-                <form action="">
+                <form id="consult-form">
                     <label for="id">Ingresa tu id de citas:</label>
-                    <input type="text" id="id" name="id" required>
+                    <input type="text" id="num-cita" name="id" required>
+                    <button type="submit" id="input"  class="boton">Enviar</button>
                 </form>
             </article>
         <article>
@@ -31,9 +32,11 @@
                 <div><p>Genero: <p id="genero_consult"></p></p></div>
                 <div><p>Fecha de la cita: <p id="date_consult"></p></p></div>
                 <div><p>Hora de la cita : <p id="hour_consult"></p></p></div>
+                <form id="bottons">
                 <div class="actions-bottons"> 
-                    <button>editar</button> <button>eliminar</button>
+                    <button>editar</button> <button onclick="eliminar_datos()">eliminar</button>
                 </div>
+                </form>
             </div>
             
         </article>
